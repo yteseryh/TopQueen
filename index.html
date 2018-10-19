@@ -8,13 +8,13 @@
 	<link rel="stylesheet" type="text/css" href="./css/bojue.css">
 	<link rel="stylesheet" type="text/css" href="./css/RWD.css">
 	<link rel="icon" href="images/bojue.ico">
-	<title>伯爵旅拍</title>
+	<title>TopQueen</title>
 </head>
 <body>
 	<div class="content-wrap">
 		<div class="dropdown">
 			<ul>
-				<li>官网首页</li>
+				<li onclick="window.location='index.html'">官网首页</li>
 				<li>了解套餐</li>
 				<li>立即购买</li>
 				<li>联系我们</li>
@@ -30,18 +30,30 @@
 			<div class="swiper-container" id="swiper1">
 			    <div class="swiper-wrapper">
 			    	<img src="./images/TopQueen.jpg" class="swiper-slide">
-		        	<img src="./images/TopQueen.jpg" class="swiper-slide">
-		        	<img src="./images/TopQueen.jpg" class="swiper-slide">
+		        	<img src="./images/detail1.jpg" class="swiper-slide">
+		        	<img src="./images/detail2.jpg" class="swiper-slide">
 			    </div>
 			</div>
 			<div class="swiper-pagination"></div>
 		</div>
 		<div class="content-tab">
 			<div class="tab-title">
-				<a href="detail.html" class="">XIAMEN<br>厦门</a>
-				<a href="list.html" class="tab-bg">SANYA<br>三亚</a>
-				<a href="javascript:" class="">LIJIANG<br>丽江</a>
-				<a href="javascript:" class="tab-bg">DALI<br>大理</a>
+				<a href="detail.html">
+					<span class="tab-text-top">XIAMEN</span>
+					<span class="tab-text-bottom">厦门</span>
+				</a>
+				<a href="list.html" class="tab-bg">
+					<span class="tab-text-top">SANYA</span>
+					<span class="tab-text-bottom">三亚</span>
+				</a>
+				<a href="javascript:">
+					<span class="tab-text-top">LIJIANG</span>
+					<span class="tab-text-bottom">丽江</span>
+				</a>
+				<a href="javascript:" class="tab-bg">
+					<span class="tab-text-top">DALI</span>
+					<span class="tab-text-bottom">大理</span>
+				</a>
 			</div>
 		</div>
 		<div class="content-area">
@@ -79,13 +91,14 @@
 			</div>
 		</div>
 		<div class="content-form" data-scroll-reveal="enter bottom over 1s">
-			<div class="form-text">
+			<!-- <div class="form-text">
 				<h1 class="form-text-title">TopQueen</h1>
 				<div class="form-text-info">
 					<h3>咨询拍摄大礼包</h3>
 					<p>全球旅拍 边走边爱 让婚纱照更有意义</p>
 				</div>
-			</div>
+			</div> -->
+			<img src="images/form-bg.jpg" alt="" class="form-img">
 			<form action="javascript:">
 				<input type="text" class="form-name" placeholder="姓名">
 				<input type="text" class="form-phone" placeholder="移动电话">
@@ -94,7 +107,7 @@
 			</form>
 		</div>
 		<footer>
-			Copyright © 2017-2018 Platinum Jue Honeymoon Culture (Xiamen) Co., Ltd
+			<img src="images/footer-bg.jpg" alt="">
 		</footer>
 	</div>
 </body>
