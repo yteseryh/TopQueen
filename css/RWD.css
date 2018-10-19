@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*320-639分辨率*/
+@media only screen and (max-width:639px) and (min-width:320px) {
+	html,body{
+		font-size: 14px;
+	}
+	
+	/*tab区*/
+	.tab-title a{
+		padding: 4% 0;
+	}
+	/*表单区*/
+	.content-form{
+		padding: 20px;
+	}
+	.form-text-title{
+		font-size: 1.85rem;
+	}
+	.form-text-info h3{
+		font-size: 1rem;
+	}
+	.form-text-info p{
+		font-size: 0.75rem;
+	}
+}
