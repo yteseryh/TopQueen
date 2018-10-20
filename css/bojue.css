@@ -143,6 +143,7 @@ form{
 	box-sizing: border-box;
   	-webkit-box-sizing: border-box;
   	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
 	background-color: #838383;
 	margin-bottom: 15px;
 	color: #fff;
